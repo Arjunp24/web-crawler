@@ -237,4 +237,4 @@ class MyCrawler:
 if __name__ == '__main__':
     restart_flag = False
     c = MyCrawler(restart_flag)
-    c.crawl(40000)
+    c.crawl(constants.WEB_PAGES_TO_CRAWL)
